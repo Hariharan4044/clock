@@ -34,7 +34,7 @@ body.dark {
   display: flex;
   height: 400px;
   width: 400px;
-  border-radius: 50%;
+  border-radius: 55%;
   align-items: center;
   justify-content: center;
   background: var(--white-color);
