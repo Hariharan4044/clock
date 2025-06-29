@@ -3,7 +3,7 @@ const body = document.querySelector("body"),
   minuteHand = document.querySelector(".minute"),
   secondHand = document.querySelector(".second"),
   modeSwitch = document.querySelector(".mode-switch");
-// check if the mode is already set to "Dark Mode" in localStorage
+// check if the mode is already set to "Dark Mode" in localStorag
 if (localStorage.getItem("mode") === "Dark Mode") {
   body.classList.add("dark");
   modeSwitch.textContent = "Light Mode";
